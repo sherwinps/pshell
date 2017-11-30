@@ -1,10 +1,8 @@
-﻿<#
+<#
 Script Name	: CheckRemoteComputer.ps1
 Description : Check if a remote computer is up.
-Author		: Sherwin Sanchez
-Last Update	: November 2017
 #>
-$Servers = (Get-Content C:\TEMP\WILDLIST.txt)
+$Servers = (Get-Content C:\TEMP\LIST.txt)
 
 foreach ($Server in $Servers)
 {
