@@ -1,8 +1,6 @@
 <#
 Script Name	: UninstallAppPackages.ps1
 Description : Uninstalls defined Windows 10 Application Packages.
-Author		: Sherwin Sanchez
-Last Update	: September 2017
 #>
 
 get-appxpackage *alarms* | remove-appxpackage
